@@ -1,0 +1,28 @@
+.goods-item{
+    float:left;
+    width:50%;
+    line-height: 0.6rem;
+    padding:8px; 
+    img{
+        width:100%;  
+    }
+    dd{
+        p{
+            padding:5px;
+            font-size:.24rem;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+    box-sizing: border-box;
+    &:nth-of-type(2n+1){
+        border-right:2px solid #eee;
+    }
+    border-bottom:2px solid #eee;
+    .icon-gouwucheman{
+        float:right;
+        padding:0,0,.2rem;
+        color:#f33737
+    }
+}

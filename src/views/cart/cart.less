@@ -1,0 +1,105 @@
+
+    // display:flex;
+    // justify-content: center;
+    // align-items:center;
+
+#cart{
+    height: 100%;
+    font-size:.24rem;
+    display:flex;
+    flex-direction: column;
+    .header{
+        line-height: .9rem;
+        text-align: center;
+        background:#fefefe;
+        border-bottom:1px solid #ddd;
+        position:relative
+    }
+    footer{
+        line-height: .6rem;
+        background:#fefefe;
+        border-top:1px solid #ddd;
+        display:flex;
+        >div{
+            flex:1
+        }
+    }
+    .goods-list{
+        flex:1;
+        height: 100%;
+        overflow: auto;
+    }
+    .edit{
+        position:absolute;
+        right:0;
+        height:100%;
+        padding:0 20px;
+    }
+    li{
+        display:flex;
+        padding:10px;
+        align-items:center;
+    }
+    .select-btn{
+        width:.5rem;
+        height: .5rem;
+        border-radius:100%;
+        display: inline-block;
+        border:1px solid #ccc;
+        text-align: center;
+        line-height: .5rem;
+    }
+    .icon-zhengque{
+        background:#fc4141;
+        color:#fff;
+        
+        border-color:#fc4141;
+        
+    }
+    .goods-img{
+        width:2.4rem;
+        height:2.4rem;
+        border:1px solid #ccc;
+        border-radius:3px;
+    }
+    .flex{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        >div{
+            flex:1;
+        }
+    }
+    .right-area{
+        flex:1;
+        line-height: .3rem;
+        font-size:.24rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding:10px;
+        .right-p{
+            padding:3px;
+        }
+    }
+    .price-box{
+        color:#fc4141;
+        flex:2;
+    }
+    .count-box{
+        flex:3;
+        span{
+            border:1px solid #ccc;
+            display:inline-block;
+            padding:5px 7px;
+
+        }
+    }
+    .cart-btn{
+        float:right;
+        height: 100%;
+        padding:0 20px;
+        background:#fc4141;
+        color:#fff
+    }
+}

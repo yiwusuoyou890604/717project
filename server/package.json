@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "jsonwebtoken": "^8.2.0",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
